@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "node copy-scramjet.js"
   },
   "dependencies": {
     "@tomphttp/bare-server-node": "^2.0.0",
